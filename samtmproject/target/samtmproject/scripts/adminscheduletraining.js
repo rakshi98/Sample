@@ -19,6 +19,7 @@ window.addEventListener('load',function()
 					alert("Ajax Object support not available");
 				}
 			}
+<<<<<<< HEAD
            document.querySelector("form").addEventListener('submit',function()
 			{
 				//call the servlet
@@ -35,6 +36,33 @@ window.addEventListener('load',function()
 				ajaxObject.setRequestHeader("Content-Type","application/x-www-form-urlencoded;"); 
 				//send parameters
 				ajaxObject.send("trainingId="+trainingId+"&trainingName="+trainingName+"&domain="+ domain+"&startDate="+startDate+"&endDate="+endDate+"&venue="+venue);
+=======
+			ajaxObject=onreadystatechange=function()
+			{
+				if((ajaxObject.readyState==4)&&(ajaxObject.status==200))
+				{
+					console.log(ajaxObject.responseText);
+				}
+			}
+		
+			document.querySelector("form").addEventListener('submit',function()
+			{
+				//call the servlet
+
+		         
+				ajaxObject.open("post","../AdminScheduleTrainingServlet",true);
+				//read the form values
+				var trainingId=document.querySelector("#trainingId").value;
+				var trainingName=document.querySelector("#trainingName").value;
+				var domain=document.querySelector("#domain").value;
+				var stratDate=document.querySelector("#startDate").value;
+				var endDate=document.querySelector("#endDate").value;
+				var venue=document.querySelector("#venue").value;
+				ajaxObject.setRequestHeader("Content-Type","application/x-www-form-urlencoded;"); 
+				//send parameters
+				ajaxObject.send("trainingId="+trainingId+"&trainingNmame="+domain+"&domain="+startDate
+						+"endDate="+endDate+"&venue="+venue);
+>>>>>>> branch 'master' of https://github.com/rakshi98/Sample.git
 		
 				var formref=document.querySelector("form");
 				//use the ready state change event

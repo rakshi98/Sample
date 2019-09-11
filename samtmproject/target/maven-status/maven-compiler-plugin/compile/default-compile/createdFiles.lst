@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+=======
+com\virtusa\samtmproject\controllers\AdminScheduleTrainingServlet.class
+com\virtusa\samtmproject\helpers\OracleHelper.class
+com\virtusa\samtmproject\dao\interfaces\AdminScheduleTrainingDao.class
+com\virtusa\samtmproject\dao\implementations\AdminScheduleTrainingImpl.class
+com\virtusa\samtproject\models\AdminScheduleTraining.class
+>>>>>>> branch 'master' of https://github.com/rakshi98/Sample.git

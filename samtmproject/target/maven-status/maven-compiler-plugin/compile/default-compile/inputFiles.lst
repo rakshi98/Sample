@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 C:\Users\CSS\git\repository1\samtmproject\src\main\java\com\virtusa\samtproject\models\AdminScheduleTraining.java
 C:\Users\CSS\git\repository1\samtmproject\src\main\java\com\virtusa\samtmproject\dao\interfaces\AdminScheduleTrainingDao.java
 C:\Users\CSS\git\repository1\samtmproject\src\main\java\com\virtusa\samtmproject\controllers\AdminViewTrainings.java
 C:\Users\CSS\git\repository1\samtmproject\src\main\java\com\virtusa\samtmproject\dao\implementations\AdminScheduleTrainingImpl.java
 C:\Users\CSS\git\repository1\samtmproject\src\main\java\com\virtusa\samtmproject\helpers\OracleHelper.java
 C:\Users\CSS\git\repository1\samtmproject\src\main\java\com\virtusa\samtmproject\controllers\AdminScheduleTrainingServlet.java
+=======
+F:\Project Workspace\samtmproject\src\main\java\com\virtusa\samtmproject\controllers\AdminScheduleTrainingServlet.java
+F:\Project Workspace\samtmproject\src\main\java\com\virtusa\samtmproject\dao\implementations\AdminScheduleTrainingImpl.java
+F:\Project Workspace\samtmproject\src\main\java\com\virtusa\samtmproject\dao\interfaces\AdminScheduleTrainingDao.java
+F:\Project Workspace\samtmproject\src\main\java\com\virtusa\samtproject\models\AdminScheduleTraining.java
+F:\Project Workspace\samtmproject\src\main\java\com\virtusa\samtmproject\helpers\OracleHelper.java
+>>>>>>> branch 'master' of https://github.com/rakshi98/Sample.git

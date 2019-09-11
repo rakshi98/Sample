@@ -45,6 +45,9 @@
   </div>
 </nav>
 <p>WELOCOME TO ADMIN PAGE</p>
+<<<<<<< HEAD
 <p>fgdsj</p>
+=======
+>>>>>>> branch 'master' of https://github.com/rakshi98/Sample.git
 </body>
 </html>

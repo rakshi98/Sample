@@ -82,6 +82,7 @@
 					</select>
 				</p>
 				<p>
+<<<<<<< HEAD
 					<label for="startDate">StartDate
 					</label> <input type="date"
 						id="startDate" placeholder="Start Date">
@@ -89,6 +90,14 @@
 				<p>
 					<label for="endDate">EndDate</label> 
 					<input type="date" id="endDate" placeholder="End Date ">
+=======
+					<label for="startDate">StartDate</label> <input type="date"
+						id="startDate" placeholder="Start Date">
+				</p>
+				<p>
+					<label for="endDate">EndDate</label> <input type="date"
+						id="endDate" placeholder="End Date ">
+>>>>>>> branch 'master' of https://github.com/rakshi98/Sample.git
 				</p>
 				<p>
 					<label for="venue">venue</label> <select class="text" id="venue">

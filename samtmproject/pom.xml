@@ -22,6 +22,7 @@
     <scope>provided</scope>
     </dependency>
     
+<<<<<<< HEAD
     <!-- https://mvnrepository.com/artifact/oracle/ojdbc14 -->
 	<dependency>
     <groupId>com.oracle</groupId>
@@ -59,6 +60,44 @@
     <artifactId>tomcat7-maven-plugin</artifactId>
     <configuration>
     <port>7070</port>
+=======
+    <!-- https://mvnrepository.com/artifact/com.oracle/ojdbc6 -->
+<dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc6</artifactId>
+    <version>11.2.0</version>
+    <scope>runtime</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.2.1</version>
+</dependency>
+    
+  </dependencies>
+  <build>
+    <finalName>samtmproject</finalName>
+  
+ <pluginManagement>
+    <plugins>
+    <plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <version>2.2</version>
+    </plugin>
+    </plugins>
+    </pluginManagement>
+    
+    <plugins>
+    
+    <plugin>
+    <groupId>org.apache.tomcat.maven</groupId>
+    <artifactId>tomcat7-maven-plugin</artifactId>
+    <configuration>
+    <port>8038</port>
+>>>>>>> branch 'master' of https://github.com/rakshi98/Sample.git
     </configuration>
     </plugin>
     
