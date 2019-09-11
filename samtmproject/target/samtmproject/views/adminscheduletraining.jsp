@@ -82,12 +82,13 @@
 					</select>
 				</p>
 				<p>
-					<label for="startDate">StartDate</label> <input type="date"
+					<label for="startDate">StartDate
+					</label> <input type="date"
 						id="startDate" placeholder="Start Date">
 				</p>
 				<p>
-					<label for="endDate">EndDate</label> <input type="date"
-						id="endDate" placeholder="End Date ">
+					<label for="endDate">EndDate</label> 
+					<input type="date" id="endDate" placeholder="End Date ">
 				</p>
 				<p>
 					<label for="venue">venue</label> <select class="text" id="venue">
